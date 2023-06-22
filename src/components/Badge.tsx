@@ -61,7 +61,12 @@ export const Badge = (props: Props) => {
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span> trepont.ai </span>
+        <span style="padding-right:3px; padding-top: 3px; display:inline-block;">
+
+<img class="manImg" src="http://35.154.25.222:8090/treepont_logo.jpeg"></img>
+
+</span>
+
       </a>
     </span>
   )
