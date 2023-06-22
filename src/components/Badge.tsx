@@ -63,7 +63,7 @@ export const Badge = (props: Props) => {
       >
         <span>
 
-<img class="manImg" src="http://35.154.25.222:8090/treepont_logo.jpeg" width="20" height="10"></img>
+<img class="manImg" src="http://35.154.25.222:8090/treepont_logo.jpeg" width="100" height="20"></img>
 
 </span>
 
