@@ -54,19 +54,14 @@ export const Badge = (props: Props) => {
     }}>Powered by
       <a
         ref={liteBadge}
-        href={'https://flowiseai.com'}
+        href={''}
         target="_blank"
         rel="noopener noreferrer"
         class="lite-badge"
         id="lite-badge"
         style={{ "font-weight": 'bold', color: props.poweredByTextColor ?? defaultTextColor }}
       >
-        <span>
-
-<img class="manImg" src="http://35.154.25.222:8090/treepont_logo.jpeg" width="100" height="20"></img>
-
-</span>
-
+        <span> trepont.ai </span>
       </a>
     </span>
   )
